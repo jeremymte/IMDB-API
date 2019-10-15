@@ -1,0 +1,42 @@
+body {
+    font-family: 'Hammersmith One', sans-serif;
+}
+.title {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.year {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.rated {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.released {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.genre {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.director {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.writer {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.urlImage {
+    float: left;
+    padding: 0px 12px 0px 0px;
+}
