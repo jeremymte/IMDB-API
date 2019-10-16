@@ -1,6 +1,9 @@
 body {
     font-family: 'Hammersmith One', sans-serif;
 }
+#movieTitle {
+    text-align: center;
+}
 .title {
     text-align: left;
     font-size: 16px;
@@ -32,6 +35,16 @@ body {
     display: block;
 }
 .writer {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.source {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+}
+.ratingsValue {
     text-align: left;
     font-size: 16px;
     display: block;
