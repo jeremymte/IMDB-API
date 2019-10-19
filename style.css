@@ -1,6 +1,44 @@
 body {
     font-family: 'Hammersmith One', sans-serif;
 }
+#page-title{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    color: #919191;
+}
+#searchContainer{
+    text-align: center;
+}
+#searchInput{
+    height: 50px;
+    text-align: center;
+    width: 600px;
+    font-weight: 100;
+    font-size: 35px;
+    display: inline-block;
+    color: #919191;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #ddd;
+    background: transparent;
+    margin: 20px auto;
+    padding: 30px 30px 40px;
+    transition: border-bottom 0.5s ease;
+}
+#searchMovieTitleButton {
+    background: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: -50px;
+}
+#searchMovieTitleButton i {
+    color: #ddd;
+}
 #movieTitle {
     text-align: center;
 }
@@ -51,5 +89,8 @@ body {
 }
 .urlImage {
     float: left;
-    padding: 0px 12px 0px 0px;
+    margin: 0 25px;
+    padding: 0 12px 0 0;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 15px #33333355;
 }

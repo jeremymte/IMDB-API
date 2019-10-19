@@ -1,10 +1,12 @@
-var apiKey = config.API_KEY;
+var apiKey = "62035e60";
 
 function searchMovieTitle(searchTerm) {
     fetch(`http://www.omdbapi.com/?t=${searchTerm}&apikey=${apiKey}`).then(result => {
         return result.json();
     }).then(result => {
+        console.log('result:', result);
         init(result);
+        document.getElementById('searchInput').value = ""; // reset search bar value after search is complete
     })
 }
 
@@ -27,6 +29,7 @@ function init(resultFromServer) {
 
 document.getElementById('searchMovieTitleButton').addEventListener('click', () => {
     let searchTerm = document.getElementById('searchInput').value;
-    if (searchTerm)
+    if (searchTerm) {
         searchMovieTitle(searchTerm);
-})
+    }
+});
